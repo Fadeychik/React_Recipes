@@ -13,7 +13,7 @@ import { Recipe } from "./components/pages/Recipe";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/React_Recipes'>
         <Header />
         <main className="container content">        
             <Switch>
